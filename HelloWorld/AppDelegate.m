@@ -13,7 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    
+    __navigationController = [[UINavigationController alloc] init];
     
     // Override point for customization after application launch.
     return YES;
